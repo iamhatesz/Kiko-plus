@@ -9,7 +9,6 @@ name:               "Yet Another Dev Blog"
 
 author:
   name:             Tomasz Wrona
-  facebook:         iamhatesz
   github:           iamhatesz
   linkedin:         iamhatesz
   email:            tomasz@wrona.me
@@ -20,7 +19,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "your-id"
+  id:               "iamhatesz"
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
