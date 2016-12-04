@@ -15,14 +15,14 @@ author:
 
 # Google-analytics
 google-analytics:
-  id:               ""
+  id:               "UA-88453009-1"
 
 # Disqus
 disqus:
   id:               "iamhatesz"
 
 # URL
-url:                "http://blog.wrona.me" # the base hostname & protocol for your site
+url:                "https://blog.wrona.me" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
