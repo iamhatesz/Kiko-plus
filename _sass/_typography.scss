@@ -198,7 +198,7 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 80%;
   color: inherit;
   background-color: transparent;
 }
@@ -244,6 +244,12 @@ img {
   border-radius: 5px;
 }
 
+img.center
+{
+    margin: 0 auto;
+    display: block;
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -260,4 +266,14 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $table-background-color;
+}
+
+.footnotes {
+  ol li {
+    font-size: 0.9rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
 }
