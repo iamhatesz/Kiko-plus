@@ -299,7 +299,7 @@ val filters = values.map(bfBuilder)
 // filters: Seq[BloomFilter[String]] = ...
 ```
 
-Przed nami najpiękniejsza część. Złączenie wyników w jedną całość sprowadza się do zwinięcia `foldLeft` naszej sekwencji za pomocą zdefiniowanego działania `op` (możemy też skorzystać z `reduceLeft` podając dodatkowo element neutralny `zero`).
+Przed nami najpiękniejsza część. Złączenie wyników w jedną całość sprowadza się do zwinięcia `reduceLeft` naszej sekwencji za pomocą zdefiniowanego działania `op` (możemy też skorzystać z `foldLeft` podając dodatkowo element neutralny `zero`).
 
 ```scala
 val summary = filters.reduceLeft(Monoid.op).asInstanceOf[BloomFilter[String]]
